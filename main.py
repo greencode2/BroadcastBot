@@ -50,12 +50,12 @@ async def startprivate(client, message):
             [
            #   InlineKeyboardButton("CHANNEL", url="https://t.me/nacbots"),
               InlineKeyboardButton(
-                    "🛒 Buy Ads / View all communities", url="https://t.me/buyads_bot"
+                    "📠 Buy Ads - ₹50 to ₹999", url="https://t.me/buyads_bot"
                 ),
             ]
         ]
     )
-    welcomed = f"Hello <b>{message.from_user.first_name}</b>\n\n🔰 We have around **100K+ traffic** from from all communities, You can promote your Communities on our channels & bots.\nPrice is starting from ₹50...\n\n✅ Click Below Button to visit our all communities & Buy ads ⤵️"
+    welcomed = f"[Your ads will be displayed here]"
     await message.reply_text(welcomed, reply_markup=joinButton)
     raise StopPropagation
 
