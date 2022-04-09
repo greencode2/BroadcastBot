@@ -48,14 +48,18 @@ async def startprivate(client, message):
     joinButton = InlineKeyboardMarkup(
         [
             [
-           #   InlineKeyboardButton("CHANNEL", url="https://t.me/nacbots"),
+              
               InlineKeyboardButton(
-                    "📠 Buy Ads - ₹50 to ₹999", url="https://t.me/buyads_bot"
+                    "🔐 Join our official group", url="https://t.me/Moviesline_Official"
                 ),
+
             ]
+          #  [
+          #    InlineKeyboardButton("", url="https://t.me/nacbots"),
+          #  ]
         ]
     )
-    welcomed = f"[Your ads will be displayed here]"
+    welcomed = f"✅ This Bot won't work if you Didn't Join our Group\n🔐Join our Group to Unlock this Bot\n👉 **Group:** @Moviesline_Official\n\n**📜 Notice:** __This Bot won't work if your don't join this Group or Left this Group.__"
     await message.reply_text(welcomed, reply_markup=joinButton)
     raise StopPropagation
 
@@ -73,7 +77,7 @@ async def opensettings(bot, cmd):
                         callback_data="notifon",
                     )
                 ],
-                [InlineKeyboardButton("❎", callback_data="closeMeh")],
+                [InlineKeyboardButton("📣 Disable it", callback_data="closeMeh")],
             ]
         ),
     )
