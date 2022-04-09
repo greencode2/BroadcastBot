@@ -50,7 +50,7 @@ async def startprivate(client, message):
             [
               
               InlineKeyboardButton(
-                    "🔐 Join our official group", url="https://t.me/Moviesline_Official"
+                    "🤖 Join Our New Bot", url="https://t.me/MovieslineBot"
                 ),
 
             ]
@@ -59,7 +59,7 @@ async def startprivate(client, message):
           #  ]
         ]
     )
-    welcomed = f"✅ This Bot won't work if you Didn't Join our Group\n🔐Join our Group to Unlock this Bot\n👉 **Group:** @Moviesline_Official\n\n**📜 Notice:** __This Bot won't work if your don't join this Group or Left this Group.__"
+    welcomed = f"✅ Join our new bot for get any **Direct Movie Files** of Hollywood Bollywood Movies including Animes & Webseries./n♻️ Easy to Use that Bot & Easy to Request new movies\n🎬 Already 700+ Movies uploaded there,\n\n__Join the Bot by Below button__ ⤵️"
     await message.reply_text(welcomed, reply_markup=joinButton)
     raise StopPropagation
 
