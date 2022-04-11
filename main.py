@@ -163,7 +163,7 @@ async def unban(c, m):
         unban_log_text = f"Unbanning user 🤪 {user_id}"
 
         try:
-            await c.send_message(user_id, f"Your ban was lifted!")
+            await c.send_message(user_id, f"Your ban was lifted!\nYou're forgiven only once by admin.")
             unban_log_text += "\n\n✅ User notified successfully! ✅"
         except BaseException:
             traceback.print_exc()
