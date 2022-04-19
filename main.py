@@ -59,7 +59,7 @@ async def startprivate(client, message):
           #  ]
         ]
     )
-    welcomed = f"✅ Join our new bot for get any **Direct Movie Files** of Hollywood Bollywood Movies including Animes & Webseries.\n\n♻️ Easy to Use that Bot & Easy to Request new movies\n\n🎬 Already 700+ Movies uploaded there...\n\n__Join the Bot by Below button__ ⤵️"
+    welcomed = f"✅ Join our new bot for get any **Direct Movie Files** of Hollywood Bollywood Movies including Animes & Webseries.\n\n♻️ Easy to Use that Bot & Easy to Request new movies\n\n🎬 Already 3000+ Movies uploaded there...\n\n__Join the Bot by Below button__ ⤵️"
     await message.reply_text(welcomed, reply_markup=joinButton)
     raise StopPropagation
 
